@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 194, 194);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.counter {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 200px;
+    flex-direction: column;
+}
+
+.counterDiv {
+    display: flex;
+    color: black;
+    background-color: white;
+    height: 300px;
+    margin: auto;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 16px;
+    flex-direction: column;
+}
+
+.firstOptions label {
+    text-align: center;
+    padding: 0px 50px;
+}
+.firstOptions input {
+    color: black;
+    margin-top: 15px;
+    direction: rtl;
+    text-align: end;
+}
+
+.firstOptions button {
+    padding: 2px 20px;
+    margin: 10px;
+    background-color: rgb(79, 79, 207);
+    border: 1px solid rgb(79, 79, 207);
+    border-radius: 8px;
+}
+
+
+
+.secondOptions {
+    margin-top: 60px;
+}
+.secondOptions button {
+    padding: 8px 80px;
+    margin: 10px;
+    background-color: rgb(79, 79, 207);
+    border: 1px solid rgb(79, 79, 207);
+    border-radius: 8px;
+}
