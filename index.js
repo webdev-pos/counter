@@ -25,7 +25,7 @@ resetEl.addEventListener("click", function() {
 
 addButton.addEventListener("click", function() {
     let calc = count + parseInt(inputEl.value);
-    count = calc
+    count = calc;
     countEl.textContent = "Count: " + calc;
     inputEl.value = "";
 })
